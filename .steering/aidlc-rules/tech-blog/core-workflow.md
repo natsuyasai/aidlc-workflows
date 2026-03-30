@@ -19,26 +19,26 @@
 - **情報が一部不足**：ステージ1.2（要件分析）を実行
 - **情報がほぼない**：インセプション全体（ステージ1.2〜1.4）を実行
 
-ルールを読み込む：`aidlc-rules/tech-blog/inception/context-detection.md`
+ルールを読み込む：`details/tech-blog/inception/context-detection.md`
 
 ### ステージ1.2 — 要件分析（情報が不足している場合に実行）
 
 構造化された質問で必要な情報を収集する。
 一度に質問するのは最大5問まで。
 
-ルールを読み込む：`aidlc-rules/tech-blog/inception/requirements-analysis.md`
+ルールを読み込む：`details/tech-blog/inception/requirements-analysis.md`
 
 ### ステージ1.3 — 読者・目的分析（常に実行）
 
 読者のスキルレベル・前提知識・記事を読んだ後に何を得てほしいかを明確にする。
 
-ルールを読み込む：`aidlc-rules/tech-blog/inception/audience-analysis.md`
+ルールを読み込む：`details/tech-blog/inception/audience-analysis.md`
 
 ### ステージ1.4 — 記事構成計画（常に実行）
 
 記事全体の骨格（タイトル・章立て・コード例・まとめ）を設計する。
 
-ルールを読み込む：`aidlc-rules/tech-blog/inception/blog-planning.md`
+ルールを読み込む：`details/tech-blog/inception/blog-planning.md`
 
 ---
 
@@ -50,19 +50,19 @@
 
 本文を書く前に、各セクションの役割と内容の概要を定義する。
 
-ルールを読み込む：`aidlc-rules/tech-blog/construction/structure-design.md`
+ルールを読み込む：`details/tech-blog/construction/structure-design.md`
 
 ### ステージ2.2 — ドラフト生成（常に実行）
 
 構造設計と収集した要件をもとに記事のドラフトを作成する。
 
-ルールを読み込む：`aidlc-rules/tech-blog/construction/draft-generation.md`
+ルールを読み込む：`details/tech-blog/construction/draft-generation.md`
 
 ### ステージ2.3 — レビュー・洗練（常に実行）
 
 ユーザーに提示する前に、技術的正確性・読みやすさ・構成を自己レビューする。
 
-ルールを読み込む：`aidlc-rules/tech-blog/construction/review.md`
+ルールを読み込む：`details/tech-blog/construction/review.md`
 
 ---
 
@@ -74,7 +74,7 @@
 
 プラットフォーム選定・タグ設定・拡散戦略・フォローアップについて推奨事項を提供する。
 
-ルールを読み込む：`aidlc-rules/tech-blog/operations/publishing-advice.md`
+ルールを読み込む：`details/tech-blog/operations/publishing-advice.md`
 
 ---
 

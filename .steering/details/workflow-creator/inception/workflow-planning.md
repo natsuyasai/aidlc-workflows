@@ -13,7 +13,9 @@
 
 ```
 aidlc-rules/[作業名]/
-├── core-workflow.md                    ← 必須
+└── core-workflow.md                    ← 必須
+
+details/[作業名]/
 ├── inception/
 │   ├── context-detection.md            ← 必須
 │   ├── requirements-analysis.md        ← 必須
@@ -72,7 +74,8 @@ aidlc-docs/[作業名]/
 ## ファイル構成計画
 
 ### ディレクトリ名
-`aidlc-rules/[作業名]/`
+- コアワークフロー：`details/[作業名]/`
+- 詳細ルール：`details/[作業名]/`
 
 ### 生成するファイルの一覧
 
@@ -97,7 +100,7 @@ aidlc-docs/[作業名]/
 5. aidlc-state.md（上記をもとに状態管理の項目を設計）
 
 ### CLAUDE.md への追記内容
-`- **[作業の表示名]** — \`aidlc-rules/[作業名]/core-workflow.md\``
+`- **[作業の表示名]** — \`details/[作業名]/core-workflow.md\``
 ```
 
 ---

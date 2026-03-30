@@ -20,14 +20,14 @@
 - **情報が一部不足**：ステージ1.2（要件分析）を実行
 - **情報がほぼない**：インセプション全体（ステージ1.2〜1.5）を実行
 
-ルールを読み込む：`aidlc-rules/job-change-docs/inception/context-detection.md`
+ルールを読み込む：`details/job-change-docs/inception/context-detection.md`
 
 ### ステージ1.2 — 要件分析（情報が不足している場合に実行）
 
 構造化された質問でキャリア情報と転職意向を収集する。
 一度に質問するのは最大5問まで。
 
-ルールを読み込む：`aidlc-rules/job-change-docs/inception/requirements-analysis.md`
+ルールを読み込む：`details/job-change-docs/inception/requirements-analysis.md`
 
 ### ステージ1.3 — キャリア実績分析（常に実行）
 
@@ -36,7 +36,7 @@
 ユーザーが提供したキャリア情報を整理・深堀りし、
 訴求力のあるエピソード・実績・強みを抽出する。
 
-ルールを読み込む：`aidlc-rules/job-change-docs/inception/career-analysis.md`
+ルールを読み込む：`details/job-change-docs/inception/career-analysis.md`
 
 ### ステージ1.4 — ターゲット分析（転職先が具体的な場合に実行）
 
@@ -46,7 +46,7 @@
 ターゲット企業・職種の要件を分析し、
 ユーザーの実績との適合ポイント・差分を特定する。
 
-ルールを読み込む：`aidlc-rules/job-change-docs/inception/target-analysis.md`
+ルールを読み込む：`details/job-change-docs/inception/target-analysis.md`
 
 ---
 
@@ -58,19 +58,19 @@
 
 作成する書類の種類・構成・強調ポイントを決定する。
 
-ルールを読み込む：`aidlc-rules/job-change-docs/construction/structure-design.md`
+ルールを読み込む：`details/job-change-docs/construction/structure-design.md`
 
 ### ステージ2.2 — ドラフト生成（常に実行）
 
 構造設計と収集したキャリア情報をもとに書類のドラフトを生成する。
 
-ルールを読み込む：`aidlc-rules/job-change-docs/construction/draft-generation.md`
+ルールを読み込む：`details/job-change-docs/construction/draft-generation.md`
 
 ### ステージ2.3 — レビュー・洗練（常に実行）
 
 ユーザーに提示する前に、書類をキャリア実績・ターゲット要件・説得力の観点で自己レビューする。
 
-ルールを読み込む：`aidlc-rules/job-change-docs/construction/review.md`
+ルールを読み込む：`details/job-change-docs/construction/review.md`
 
 ---
 
@@ -82,7 +82,7 @@
 
 応募チャネル・提出方法・応募タイミングについて推奨事項を提供する。
 
-ルールを読み込む：`aidlc-rules/job-change-docs/operations/submission-advice.md`
+ルールを読み込む：`details/job-change-docs/operations/submission-advice.md`
 
 ---
 

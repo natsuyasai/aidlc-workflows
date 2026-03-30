@@ -25,11 +25,11 @@
 
 ### ステージ1.1 — コンテキスト検出（常に実行）
 [評価する情報と判断ロジックを記載]
-ルールを読み込む：`aidlc-rules/[作業名]/inception/context-detection.md`
+ルールを読み込む：`details/[作業名]/inception/context-detection.md`
 
 ### ステージ1.N — [ステージ名]（[実行条件]）
 [このステージの目的と実行/スキップ条件]
-ルールを読み込む：`aidlc-rules/[作業名]/inception/[ファイル名].md`
+ルールを読み込む：`details/[作業名]/inception/[ファイル名].md`
 
 ---
 
@@ -39,7 +39,7 @@
 
 ### ステージ2.1 — [ステージ名]（常に実行）
 [このステージの目的]
-ルールを読み込む：`aidlc-rules/[作業名]/construction/[ファイル名].md`
+ルールを読み込む：`details/[作業名]/construction/[ファイル名].md`
 
 ---
 
@@ -49,7 +49,7 @@
 **目的：** [後工程について何をアドバイスするかを1文で]
 
 ### ステージ3.1 — [ステージ名]（ユーザーが求めた場合に実行）
-ルールを読み込む：`aidlc-rules/[作業名]/operations/[ファイル名].md`
+ルールを読み込む：`details/[作業名]/operations/[ファイル名].md`
 
 ---
 

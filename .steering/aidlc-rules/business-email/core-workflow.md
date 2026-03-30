@@ -19,28 +19,28 @@
 - **情報が一部不足**: ステージ1.2（要件分析）を実行
 - **情報がほぼない**: インセプション全体（ステージ1.2〜1.4）を実行
 
-ルールを読み込む：`aidlc-rules/business-email/inception/context-detection.md`
+ルールを読み込む：`details/business-email/inception/context-detection.md`
 
 ### ステージ1.2 — 要件分析（情報が不足している場合に実行）
 
 構造化された質問で必要な情報を収集する。
 一度に質問するのは最大5問まで。
 
-ルールを読み込む：`aidlc-rules/business-email/inception/requirements-analysis.md`
+ルールを読み込む：`details/business-email/inception/requirements-analysis.md`
 
 ### ステージ1.3 — 受信者・トーン分析（社外メールや配慮が必要なメールに実行）
 
 スキップ条件：社内への簡単な連絡、既知の同僚への短い返信。
 実行条件：クライアント向け、正式な依頼・謝罪・交渉・初対面へのメール。
 
-ルールを読み込む：`aidlc-rules/business-email/inception/audience-analysis.md`
+ルールを読み込む：`details/business-email/inception/audience-analysis.md`
 
 ### ステージ1.4 — メール構成計画（複数要点を含む複雑なメールに実行）
 
 スキップ条件：単一トピック・短いメール。
 実行条件：複数の依頼・添付ファイルへの言及・複数の意思決定事項を含むメール。
 
-ルールを読み込む：`aidlc-rules/business-email/inception/email-planning.md`
+ルールを読み込む：`details/business-email/inception/email-planning.md`
 
 ---
 
@@ -52,19 +52,19 @@
 
 本文を書く前にメールの骨格を定義する。
 
-ルールを読み込む：`aidlc-rules/business-email/construction/structure-design.md`
+ルールを読み込む：`details/business-email/construction/structure-design.md`
 
 ### ステージ2.2 — ドラフト生成（常に実行）
 
 構造設計と収集した要件をもとにドラフトを作成する。
 
-ルールを読み込む：`aidlc-rules/business-email/construction/draft-generation.md`
+ルールを読み込む：`details/business-email/construction/draft-generation.md`
 
 ### ステージ2.3 — レビュー・洗練（常に実行）
 
 ユーザーに提示する前に、要件に対してドラフトを自己レビューする。
 
-ルールを読み込む：`aidlc-rules/business-email/construction/review.md`
+ルールを読み込む：`details/business-email/construction/review.md`
 
 ---
 
@@ -76,7 +76,7 @@
 
 タイミング・チャネル・フォローアップについて推奨事項を提供する。
 
-ルールを読み込む：`aidlc-rules/business-email/operations/sending-advice.md`
+ルールを読み込む：`details/business-email/operations/sending-advice.md`
 
 ---
 
