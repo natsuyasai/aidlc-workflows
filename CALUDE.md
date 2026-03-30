@@ -8,6 +8,7 @@
 - **ビジネスメール作成** — `aidlc-rules/business-email/core-workflow.md`
 - **技術ブログ執筆** — `aidlc-rules/tech-blog/core-workflow.md`
 - **ワークフロー定義ファイル作成** — `aidlc-rules/workflow-creator/core-workflow.md`
+- **転職書類作成**（職務経歴書・自己PR） — `aidlc-rules/job-change-docs/core-workflow.md`
 
 
 ### 利用ガイドライン
@@ -34,5 +35,9 @@ aidlc-docs/
 │   ├── aidlc-state.md       # 現在のセッション状態
 │   ├── audit.md             # セッション監査ログ
 │   └── generated/           # 生成したワークフロー定義ファイル一式
+├── job-change-docs/
+│   ├── aidlc-state.md       # 現在のセッション状態
+│   ├── audit.md             # セッション監査ログ
+│   └── drafts/              # 生成した転職書類ドラフト
 ```
 
