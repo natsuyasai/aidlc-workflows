@@ -17,27 +17,27 @@ AIモデルは以下に基づいて必要なステージをインテリジェン
 
 **重要**：任意のフェーズを実行する場合、ルール詳細ファイルから関連コンテンツを読み込んで使用する必要がある。以下のパスを順番にチェックし、最初に存在するものを使用する：
 
-- `.aidlc-rule-details/`（Cursor、Cline、Claude Code、GitHub Copilot）
+- `details/aws-aidlc-rule-details/`（Cursor、Cline、Claude Code、GitHub Copilot）
 - `.kiro/aws-aidlc-rule-details/`（Kiro IDEおよびCLI）
-- `.amazonq/aws-aidlc-rule-details/`（Amazon Q Developer）
+- `.amazonq/aaws-aidlc-rule-details/`（Amazon Q Developer）
 
 後続のすべてのルール詳細ファイル参照（例：`common/process-overview.md`、`inception/workspace-detection.md`）は、上記で解決されたルール詳細ディレクトリからの相対パスである。
 
 **共通ルール**：ワークフロー開始時に常に共通ルールを読み込む：
 
-- ワークフロー概要のために`common/process-overview.md`を読み込む
-- セッション再開ガイダンスのために`common/session-continuity.md`を読み込む
-- コンテンツ検証要件のために`common/content-validation.md`を読み込む
-- 質問フォーマットルールのために`common/question-format-guide.md`を読み込む
+- ワークフロー概要のために`details/acommon/process-overview.md`を読み込む
+- セッション再開ガイダンスのために`details/acommon/session-continuity.md`を読み込む
+- コンテンツ検証要件のために`details/acommon/content-validation.md`を読み込む
+- 質問フォーマットルールのために`details/acommon/question-format-guide.md`を読み込む
 - ワークフロー実行全体を通じてこれらを参照する
 
 ## 必須：拡張機能の読み込み（コンテキスト最適化）
 
-**重要**：ワークフロー開始時に`extensions/`ディレクトリを再帰的にスキャンするが、軽量のオプトインファイルのみを読み込む。完全なルールファイルはユーザーがオプトインした後にオンデマンドで読み込む。
+**重要**：ワークフロー開始時に`details/aextensions/`ディレクトリを再帰的にスキャンするが、軽量のオプトインファイルのみを読み込む。完全なルールファイルはユーザーがオプトインした後にオンデマンドで読み込む。
 
 **読み込みプロセス**：
 
-1. `extensions/`以下のすべてのサブディレクトリをリストアップする（例：`extensions/security/`、`extensions/compliance/`）
+1. `details/aextensions/`以下のすべてのサブディレクトリをリストアップする（例：`details/aextensions/security/`、`details/aextensions/compliance/`）
 2. 各サブディレクトリで、`*.opt-in.md`ファイルのみを読み込む。これらには拡張機能のオプトインプロンプトが含まれる。対応するルールファイルは規則によって導出される：`.opt-in.md`サフィックスを削除して`.md`を追加する（例：`security-baseline.opt-in.md` → `security-baseline.md`）
 3. この段階では完全なルールファイル（例：`security-baseline.md`）を読み込まない
 
@@ -60,10 +60,10 @@ AIモデルは以下に基づいて必要なステージをインテリジェン
 
 ## 必須：コンテンツ検証
 
-**重要**：ファイルを作成する前に、`common/content-validation.md`ルールに従ってコンテンツを検証する必要がある：
+**重要**：ファイルを作成する前に、`details/acommon/content-validation.md`ルールに従ってコンテンツを検証する必要がある：
 
 - Mermaid図表の構文を検証する
-- ASCII図表を検証する（`common/ascii-diagram-standards.md`を参照）
+- ASCII図表を検証する（`details/acommon/ascii-diagram-standards.md`を参照）
 - 特殊文字を適切にエスケープする
 - 複雑な視覚コンテンツにテキストの代替を提供する
 - コンテンツの解析互換性をテストする
@@ -72,7 +72,7 @@ AIモデルは以下に基づいて必要なステージをインテリジェン
 
 **重要**：任意のフェーズで質問する場合、質問フォーマットのガイドラインに従う必要がある。
 
-**以下を含む完全な質問フォーマットルールについては`common/question-format-guide.md`を参照してください**：
+**以下を含む完全な質問フォーマットルールについては`details/acommon/question-format-guide.md`を参照してください**：
 
 - 複数選択フォーマット（A、B、C、D、Eのオプション）
 - 回答の検証と曖昧さの解決
@@ -83,7 +83,7 @@ AIモデルは以下に基づいて必要なステージをインテリジェン
 
 **ウェルカムメッセージの表示方法**：
 
-1. `common/welcome-message.md`からウェルカムメッセージを読み込む（解決されたルール詳細ディレクトリ内）
+1. `details/acommon/welcome-message.md`からウェルカムメッセージを読み込む（解決されたルール詳細ディレクトリ内）
 2. 完全なメッセージをユーザーに表示する
 3. これは新しいワークフローの開始時に一度だけ行う
 4. コンテキストスペースを節約するために、後続のインタラクションではこのファイルを読み込まない
@@ -258,7 +258,7 @@ AIモデルは以下に基づいて必要なステージをインテリジェン
 
 1. **必須**：audit.mdにこのフェーズ中のユーザー入力をログ記録する
 2. `inception/workflow-planning.md`からすべてのステップを読み込む
-3. **必須**：`common/content-validation.md`からコンテンツ検証ルールを読み込む
+3. **必須**：`details/acommon/content-validation.md`からコンテンツ検証ルールを読み込む
 4. すべての事前コンテキストを読み込む：
    - リバースエンジニアリング成果物（ブラウンフィールドの場合）
    - 意図分析
